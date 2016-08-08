@@ -2,7 +2,7 @@ app.service('igniteRestService', ['$http', '$q', function ($http, $q) {
 
     this.invoke = function (methodName, params) {
 
-      //console.log("test from ui/rest-service:", methodName);
+      console.log("test from ui/rest-service:", methodName);
 
 
         var deferred = $q.defer();
