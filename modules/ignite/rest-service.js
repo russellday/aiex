@@ -13,6 +13,7 @@ module.exports = function() {
 
         console.log("rootUrl:", rootUrl);
         console.log("query:", query);
+        console.log("method:", methodName);
 
         //TODO: If method is TOP: S3 List, Iterate
         //else update rootUrl per a dictionary or array
