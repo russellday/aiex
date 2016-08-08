@@ -1,9 +1,7 @@
 {
     "development":{
         "rootPath":"/api",
-        "port": 8081,
+        "port": 80,
         "zmqSocketAddress":"tcp://127.0.0.1:5555"
     }
 }
-
-
