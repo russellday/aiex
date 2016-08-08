@@ -4,7 +4,7 @@ var logger = global.logger;
 var request = require("request");
 var r = process.env.IGNITE_REST;
 //var rootUrl = r !== undefined ? "http://" + process.env.IGNITE_REST + "/ignite?cmd=" : "http://localhost:8080/ignite?cmd=";
-var rootUrl = "http://54.209.43.144/ignite?cmd="
+var rootUrl = "http://54.209.43.144:8080/ignite?cmd="
 
 
 module.exports = function() {
